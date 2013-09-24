@@ -29,7 +29,7 @@
     var buildVideo = function () {
       var html = '';
       html += '<video id="'+plugin.settings.videoid+'" preload="auto" autoplay="autoplay" loop="true"';
-      html += 'style="display:none;position:'+plugin.settings.position+';top:0;left:0;bottom:0;right:0;width:100%;height:100%;z-index:-1">';                                                              
+      html += 'style="display:none;position:'+plugin.settings.position+';top:0;left:0;bottom:0;right:0;width:100%;height:100%;">';                                                              
       for(var i=0; i < plugin.settings.types.length; i++) {
         html += '<source src="'+plugin.settings.path+plugin.settings.filename+'.'+plugin.settings.types[i]+'" type="video/'+plugin.settings.types[i]+'" />';
       }
