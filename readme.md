@@ -1,4 +1,4 @@
-# jQuery - Background video plugin
+# Zepto/jQuery - Background video plugin
 
 Add a background video to your website…
 
@@ -25,3 +25,9 @@ And launch the plugin :
 ## Examples
 
 Check out the `example` folder.
+
+
+## Updates
+- Add support for Zepto
+- Fix resizing algorigthm when attached to a div
+- Add "position" parameter to keep the video fixed when scrolled through or following the scroll flow. (tested with values "fixed"/"absolute") 
